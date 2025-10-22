@@ -166,7 +166,7 @@ sock.close()
 
 ![Server TCP](example.png)
 
-Em (6), foi digitado Ctrl+C para encerrar o server. Entretanto, após 5 minutos (300 s) de inatividade, o server encerra a escuta.
+Em (6), foi digitado Ctrl+C para encerrar o server. Entretanto, caso o server fique inativo por 5 minutos (300 s), será encerrada a escuta.
 
 
 
